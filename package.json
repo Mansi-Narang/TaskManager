@@ -1,0 +1,38 @@
+{
+  "name": "keep",
+  "version": "1.0.0",
+  "description": "A personal task manager to manage, track your all tasks efficiently with self postable light weight applications.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mansi-Narang/TaskManager.git"
+  },
+  "keywords": [
+    "Task",
+    "Manager",
+    "Management",
+    "Scheduler",
+    "Easier",
+    "Efficient",
+    "Light",
+    "weight"
+  ],
+  "author": "Mansi Narang",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Mansi-Narang/TaskManager/issues"
+  },
+  "homepage": "https://github.com/Mansi-Narang/TaskManager#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
